@@ -253,6 +253,7 @@ for (let i = 0; i<propertyArray.length; i++) {
                         <p class="author-title">Agent</p>
                         </div>
                     </div>
+                    <div class="green" style="background:green; border-radius: 5px; padding: 10px 15px; color: white;">View details</div>
 
                     
 
