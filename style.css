@@ -5,6 +5,11 @@
     font-size: 17px;
   }
 
+  @font-face {
+    font-family: myFont;
+    src: url(trebuc.ttf);
+  }
+
   li { list-style: none; }
   
   .logo { display: flex; align-items: center; }
@@ -28,11 +33,14 @@
   ion-icon { pointer-events: none; }
   
   html {
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     scroll-behavior: smooth;
   }
+
+
+
   
-  body { background: white; overflow-x: hidden; }
+  body { background: white; overflow-x: hidden; font-family: myFont;}
   
   ::-webkit-scrollbar { width: 10px; height: 8px; }
   
@@ -53,7 +61,7 @@
   .h2,
   .h3 {
     color: black;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     line-height: 1.3;
   }
   
@@ -75,7 +83,7 @@
     position: relative;
     background: darkgreen;
     color: white;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 0.875rem;
     text-transform: var(--text-transform, capitalize);
     border: 1px solid darkgreen;
@@ -360,7 +368,7 @@
   
   .header-bottom-actions-btn span {
     color: darkgreen;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 0.75rem;
     font-weight: 500;
   }
@@ -645,7 +653,7 @@
   
   .card-price {
     color: darkgreen;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 1rem;
     margin-bottom: 13px;
   }
@@ -722,7 +730,7 @@
   
   .author-name > a {
     color: black;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 0.875rem;
     font-weight: 600;
     margin-bottom: 3px;
@@ -810,7 +818,7 @@
   
   .features-card .card-title {
     color: black;
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 0.813rem;
     font-weight: 600;
     text-align: center;
@@ -1028,7 +1036,7 @@
   .footer-list:not(:last-child) { margin-bottom: 50px; }
   
   .footer-list-title {
-    font-family:  'Lucida Sans', sans-serif;
+    font-family: myFont;
     font-size: 1.375rem;
     font-weight: 700;
     margin-bottom: 15px;
@@ -1611,8 +1619,8 @@
   
   
   p,h1,h2,h3,h4,h5,h6 a, button, .btn, .h1, .h2, .h3,.h4,.h5,.h6, #font-family, .font-family{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  }
+    font-family: myFont;
+}
   
   
   /* a {
