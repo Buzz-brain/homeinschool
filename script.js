@@ -174,7 +174,7 @@ let propertyList = document.getElementsByClassName("property-list")[0]
 for (let i = 0; i<propertyArray.length; i++) {
     let property = document.createElement("li");
     property.innerHTML = `
-                <div class="property-card reveal">
+                <div class="property-card">
                     <figure class="card-banner">
                     <a href="#"><img src="${propertyArray[i].lodgeImg}" alt="New Apartment Nice View" class="w-100"></a>
                     <button class=" fav">
