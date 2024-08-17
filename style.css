@@ -391,7 +391,7 @@
   
   .hero {
     background: rgba(165, 165, 235, 0.123);
-    padding-block: 100px;
+    padding-block: 50px;
   }
   
   .hero-content { margin-bottom: 60px; }
