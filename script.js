@@ -50,6 +50,25 @@ window.addEventListener("scroll", function () {
     : header.classList.remove("active");
 }); 
 
+window.addEventListener('scroll', reveal);
+
+function reveal() {
+  var reveals = document.querySelectorAll('.reveal');
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowheight = window.innerHeight;
+    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealpoint = 0;
+
+    if (revealtop < windowheight - revealpoint) {
+      reveals[i].classList.add('active');
+    }
+    else {
+      reveals[i].classList.remove('active');
+    }
+  }
+}
+
 let propertyArray = [
     {
         lodgeImg: "./assets/images/herobanner4.png",
@@ -155,7 +174,7 @@ let propertyList = document.getElementsByClassName("property-list")[0]
 for (let i = 0; i<propertyArray.length; i++) {
     let property = document.createElement("li");
     property.innerHTML = `
-                <div class="property-card">
+                <div class="property-card reveal">
                     <figure class="card-banner">
                     <a href="#"><img src="${propertyArray[i].lodgeImg}" alt="New Apartment Nice View" class="w-100"></a>
                     <button class=" fav">
@@ -328,12 +347,14 @@ for (let i = 0; i<propertyArray.length; i++) {
                         <p class="author-title">Agent</p>
                         </div>
                     </div>
-
-                    
-
                     </div>
 
                 </div>
              `
     propertyMostViewed.append(property)
 }  
+
+
+
+
+
