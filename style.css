@@ -309,7 +309,6 @@
     margin-bottom: 25px;
   }
   
-  .navbar-top .logo img { width: 200px; }
   
   .nav-close-btn ion-icon {
     font-size: 20px;
@@ -423,7 +422,7 @@
     #ABOUT
   \*-----------------------------------*/
   
-  .about { padding-block: 100px; }
+  .about { padding-block: 50px; }
   
   .about-banner {
     position: relative;
@@ -512,7 +511,7 @@
   
   .service {
     background: white;
-    padding-block: 100px;
+    padding-block: 50px;
   }
   
   .service-list {
@@ -528,7 +527,7 @@
     text-align: center;
     padding: 40px 30px;
     border-radius: 30px;
-    box-shadow: 0px 10px 30px rgba(187, 187, 187, 0.39);
+    box-shadow: 0px 10px 30px rgba(150, 150, 150, 0.932);
   }
   
   .service-card .card-icon {
