@@ -1,0 +1,44 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f0f2f5; /* Light grey background */
+    border-radius: 25px; /* Rounded corners */
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.search-icon {
+    color: #a9a9a9; /* Light grey color for the icon */
+    font-size: 20px; /* Adjust icon size */
+    margin-left: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    flex-grow: 1;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.search-input::placeholder {
+    color: #a9a9a9; /* Light grey text color */
+}
+
+.search-button {
+    background-color: rgb(2, 151, 2); /* Teal button background */
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-button ion-icon {
+    font-size: 20px; /* Icon size */
+}

@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HomeinSchool</title>
         <link rel="shortcut icon" href="./assets/images/tey_properties_logo.jpg" type="image/svg+xml">
+        <link rel="stylesheet" href="lodge.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -99,22 +100,40 @@
 
 
 
-  <main >
+  <main class="container">
     <article>
       <!-- 
         - #PROPERTY
       -->
-
+      <div class="search-bar">
+        <ion-icon name="search-outline" class="search-icon"></ion-icon>
+        <input type="text" placeholder="Search" class="search-input">
+        <button class="search-button">
+            <ion-icon name="options-outline"></ion-icon> <!-- Ionicons slider icon -->
+        </button>
+    </div>
+    
+    
       <section class="property" id="property">
         <div class="container">
-
+        <h2 class="h2 section-title">Featured Properties</h2>
           <ul class="property-list has-scrollbar">
           </ul>
 
         </div>
       </section>
 
+      <section class="property" id="property">
+        <div class="container">
 
+
+          <h2 class="h2 section-title">Most Viewed Properties</h2>
+
+          <ul class="property-most-viewed has-scrollbar">
+
+          </ul>
+        </div>
+      </section>
 
 
 

@@ -80,7 +80,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "5",
+        kitchen: "5",
         balcony: "1",
         agentName: "Buzz brain",
         pictureCount: "8",
@@ -96,7 +96,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "3",
+        kitchen: "3",
         balcony: "1",
         agentName: "Sir Bello",
         pictureCount: "2",
@@ -112,7 +112,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "1",
+        kitchen: "1",
         balcony: "1",
         agentName: "Mr. Onos",
         pictureCount: "6",
@@ -128,7 +128,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "5",
+        kitchen: "5",
         balcony: "1",
         agentName: "Buzz brain",
         pictureCount: "8",
@@ -144,7 +144,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "1",
+        kitchen: "1",
         balcony: "1",
         agentName: "Mr. Onos",
         pictureCount: "6",
@@ -160,7 +160,7 @@ let propertyArray = [
         location: "Owerri, Imo, Nigera",
         purpose: 'Rent',
         bathroom: "1",
-        bedroom: "3",
+        kitchen: "3",
         balcony: "1",
         agentName: "Sir Bello",
         pictureCount: "2",
@@ -217,9 +217,9 @@ for (let i = 0; i<propertyArray.length; i++) {
 
                     <ul class="card-list">
                         <li class="card-item">
-                        <strong>${propertyArray[i].bedroom}</strong>
+                        <strong>${propertyArray[i].kitchen}</strong>
                         <ion-icon name="bed-outline"></ion-icon>
-                        <span>${propertyArray[i].bedroom == '1' ? "Bedroom" : "Bedrooms"}</span>
+                        <span>${propertyArray[i].kitchen == '1' ? "Kitchen" : "Kitchens"}</span>
                         </li>
 
                         <li class="card-item">
@@ -253,7 +253,7 @@ for (let i = 0; i<propertyArray.length; i++) {
                         <p class="author-title">Agent</p>
                         </div>
                     </div>
-                    <div class="green" style="background:green; border-radius: 5px; padding: 10px 15px; color: white;">View details</div>
+                    <a href="lodgeDetail.html"> <div class="green" style="background:green; border-radius: 5px; padding: 10px 15px; color: white;">View details</div> </a>
 
                     
 
@@ -312,9 +312,9 @@ for (let i = 0; i<propertyArray.length; i++) {
 
                     <ul class="card-list">
                         <li class="card-item">
-                        <strong>${propertyArray[i].bedroom}</strong>
+                        <strong>${propertyArray[i].kitchen}</strong>
                         <ion-icon name="bed-outline"></ion-icon>
-                        <span>${propertyArray[i].bedroom == '1' ? "Bedroom" : "Bedrooms"}</span>
+                        <span>${propertyArray[i].kitchen == '1' ? "kitchen" : "kitchens"}</span>
                         </li>
 
                         <li class="card-item">

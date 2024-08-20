@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.property-detail {
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-image {
+    position: relative;
+}
+
+.property-image img {
+    width: 100%;
+    height: auto;
+}
+
+.property-cred {
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-icons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.action-icons ion-icon {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.property-info {
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.property-info h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.property-info p {
+    color: #888;
+    margin: 5px 0;
+}
+
+.property-info h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.property-info h2 span {
+    font-size: 14px;
+    color: #888;
+}
+
+.property-tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.property-tabs a {
+    text-decoration: none;
+    color: darkgreen;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.property-tabs a.active {
+    border-bottom: 2px solid darkgreen;
+}
+
+.property-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.property-stats span {
+    font-size: 16px;
+}
+
+.overview, .buyers-agent, .pricing {
+    padding: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.overview p {
+    color: #666;
+}
+
+
+.agent-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.agent-info img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.pricing h3 {
+    font-size: 24px;
+    color: darkgreen;
+}
+
+.booking-button {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+
+
+
+/* Gallery */
+
+.gallery-section {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.gallery-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.gallery-header h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gallery-header span {
+    color: #888;
+    font-size: 14px;
+}
+
+.photo-gallery, .video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo-item, .video-item {
+    width: 30%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.photo-item img, .video-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.video-item ion-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: white;
+    opacity: 0.8;
+}
