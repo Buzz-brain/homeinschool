@@ -17,9 +17,19 @@ const overlay = document.querySelector("[data-overlay]");
 const navCloseBtn = document.querySelector("[data-nav-close-btn]");
 const navOpenBtn = document.querySelector("[data-nav-open-btn]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
+const filter = document.getElementsByClassName("filter")[0];
+const options = document.getElementsByClassName("options")[0];
 
 const navElemArr = [overlay, navCloseBtn, navOpenBtn];
 
+
+filter.addEventListener("click", () => {
+    if(options.style.display == "none") {
+        options.style.display = "block"
+    } else {
+        options.style.display = "none"
+    }
+})
 /**
  * close navbar when click on any navbar link
  */
