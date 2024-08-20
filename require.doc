@@ -4,18 +4,42 @@ HOME PAGE
 3. Menu button goes up for mobile
 4. The nav list comes down for desktop
 5. Logo
+6. View all lodges button
 
-PROPERTY DETAIL PAGE
-1. 
-2.
-3.
+LODGE PAGE
+1. Page Title: "Available Lodges" or "Find Your Lodge"
+2. Breadcrumb Navigation: Optional, showing the user's path (e.g., Home > Available Lodges).
+3. Title: "Available Lodges"
+
+LODGE DETAIL PAGE
+1. Large image carousel with multiple images of the lodge.
+2. User reviews with a star rating system and a form to submit new reviews.
+3. Simple form for inquiries about the lodge.
+4. "Book Now" button prominently displayed.
+5. Lodge name, price, and location at the top.
+6. Availability: Current availability status and available move-in dates.
 
 ABOUT PAGE
+1. Breadcrumb Navigation: Optional, showing the user's path (e.g., Home > About Us).
+2.
+3. 
+4. 
+
+BOOKING HISTORY PAGE
 1. 
 2.
 3.
+
+ADMIN PANEL PAGE
+1.
+2.
+3.
+
+Student Dashboard
+Landlord Dashboard
 
 Questions
 1. Do we need to add wardrobe, security, bedroom, heater
 Suggestion: We can turn it to a loop or just include it in the description
 2. What do we do about indicating the closeness to school
+3. Should each lodge have an given ID

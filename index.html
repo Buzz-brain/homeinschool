@@ -8,6 +8,7 @@
 
         <link rel="shortcut icon" href="./assets/images/tey_properties_logo.jpg" type="image/svg+xml">
         <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     </head>
 
 <body class="font-family">
@@ -104,6 +105,7 @@
     </div>
 
   </header>
+  
 
 
 
@@ -144,7 +146,40 @@
         </div>
       </section>
 
-
+      <div class="flex items-center justify-center py-8 -mt-16 container">
+        <div class="rounded-xl bg-white shadow-lg flex items-center w-full max-w-4xl p-2 flex-wrap md:flex-nowrap">
+    
+            <!-- Search Input -->
+            <input 
+                type="text" 
+                placeholder="Search your property" 
+                class="flex-grow bg-transparent outline-none text-gray-700 px-4 py-2 md:py-0 w-12"
+            />
+                  
+            <!-- Dropdown Menu -->
+            <div class="relative mt-2 md:mt-0">
+                <button class="flex items-center bg-gray-100 text-gray-700 rounded-full px-4 py-2 mx-2">
+                    <ion-icon name="options-outline" class="text-xl"></ion-icon>
+                    <span class="ml-2">Filter</span>
+                    <ion-icon name="chevron-down-outline" class="ml-2 text-xl"></ion-icon>
+                </button>
+                <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block">
+                    <ul class="text-gray-700 text-sm">
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Price Range</li>
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Bedrooms</li>
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Location</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <!-- Search Button -->
+            <button class="bg-green-700 text-white flex items-center rounded-full px-2 py-2  mx-2 mt-2 md:px-5 mt-0">
+              <!-- Search Icon -->
+              <ion-icon name="search-outline" class="text-white-700 text-xl md:pr-2"></ion-icon>
+              <span class="hidden md:block">Search</span>
+            </button>
+        </div>
+      </div>
 
 
       <!-- 

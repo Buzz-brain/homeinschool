@@ -6,8 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HomeinSchool</title>
         <link rel="shortcut icon" href="./assets/images/tey_properties_logo.jpg" type="image/svg+xml">
-        <link rel="stylesheet" href="lodge.css">
+        <!-- <link rel="stylesheet" href="lodge.css"> -->
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+
     </head>
 
 <body class="font-family">
@@ -100,23 +102,51 @@
 
 
 
-  <main class="container">
+  <!-- <main class="container"> -->
+  <main class="">
     <article>
       <!-- 
         - #PROPERTY
       -->
-      <div class="search-bar">
-        <ion-icon name="search-outline" class="search-icon"></ion-icon>
-        <input type="text" placeholder="Search" class="search-input">
-        <button class="search-button">
-            <ion-icon name="options-outline"></ion-icon> <!-- Ionicons slider icon -->
-        </button>
-    </div>
+        <div class="flex items-right justify-end py-5 container">
+
+          <div class="rounded-2xl bg-white shadow-lg flex items-center w-full max-w-xl p-2">
+              <!-- Search Input -->
+              <input 
+                  type="text" 
+                  placeholder="Search for lodges" 
+                  class="flex-grow bg-transparent outline-none text-gray-700 px-4 py-2 md:py-0 w-12"
+              />
+                    
+              <!-- Dropdown Menu -->
+              <div class="relative mt-2 md:mt-0">
+                  <button class="flex items-center bg-gray-100 text-gray-700 rounded-full px-4 py-2 mx-2">
+                      <ion-icon name="options-outline" class="text-xl"></ion-icon>
+                      <span class="ml-2">Filter</span>
+                      <ion-icon name="chevron-down-outline" class="ml-2 text-xl"></ion-icon>
+                  </button>
+                  <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block">
+                      <ul class="text-gray-700 text-sm">
+                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Price Range</li>
+                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Bedrooms</li>
+                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Location</li>
+                      </ul>
+                  </div>
+              </div>
+      
+              <!-- Search Button -->
+              <button class="bg-green-700 text-white flex items-center rounded-full px-2 py-2  mx-2 mt-2 md:px-5 md:mt-0">
+                <!-- Search Icon -->
+                <ion-icon name="search-outline" class="text-white-700 text-xl md:pr-2"></ion-icon>
+                <span class="hidden md:block">Search</span>
+              </button>
+          </div>
+        </div>
     
     
       <section class="property" id="property">
         <div class="container">
-        <h2 class="h2 section-title">Featured Properties</h2>
+          <h2 class="section-title flex justify-start font-bold text-2xl md:text-3xl"><ion-icon name="home" class="pr-2 text-3xl"></ion-icon>Find Your Lodge</h2>
           <ul class="property-list has-scrollbar">
           </ul>
 
