@@ -12,7 +12,7 @@
 
   li { list-style: none; }
   
-  .logo { display: flex; align-items: center; }
+  .logo { display: flex; align-items: center; justify-content: space-between; }
 
   .logoTxt { margin-left: 5px; font-size:35px; font-weight: bold; }
 
@@ -313,9 +313,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 40px;
     border-bottom: 1px solid white;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
   }
   
   
@@ -1467,7 +1466,13 @@
   
   }
   
-  
+  /* .navbar-list li {
+    padding-left: 20px;
+  }
+  .navbar-list li:hover {
+    background-color: darkgreen;
+    color: white;
+  } */
   
   
   
@@ -1522,6 +1527,7 @@
       align-items: center;
       gap: 30px;
     }
+ 
   
     .navbar-link {
       color: black;

@@ -16,20 +16,33 @@
 
   <!-- #HEADER -->
   <header class="header font-family" data-header>
+
     <div class="overlay" data-overlay></div>
+
     <div class="header-bottom">
       <div class="container">
-        <a href="#" class="logo">
-          <img src="./assets/images/tey_logo.png" width="220px" alt="tey_properties_logo">
-        </a>
+
+        <div class="logo flex">
+          <a href="#">
+            <img src="./assets/images/tey_logo.png" width="220px" alt="tey_properties_logo">
+          </a>
+          <div data-nav-open-btn aria-label="Open Menu" style="cursor: pointer;">
+            <ion-icon name="menu-outline" class="text-5xl text-green-700"></ion-icon>
+          </div>
+        </div>
+
         <nav class="navbar" data-navbar>
+
           <div class="navbar-top">
-            <a href="#" class="logo">
+
+            <a href="#">
               <img src="./assets/images/tey_logo.png" width="220px" alt="tey_properties_logo"> 
             </a>
+
             <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
               <ion-icon name="close-outline"></ion-icon>
             </button>
+
           </div>
 
           <div class="navbar-bottom">
@@ -71,11 +84,6 @@
 
         <div class="header-bottom-actions">
 
-          <button class="header-bottom-actions-btn" aria-label="Search" >
-            <ion-icon name="search-outline"></ion-icon>
-            <span>Search</span>
-          </button>
-
           <button class="header-bottom-actions-btn" aria-label="Profile">
             <ion-icon name="person-outline"></ion-icon>
             <span>Profile</span>
@@ -86,9 +94,9 @@
             <span>Cart</span>
           </button>
 
-          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
-            <ion-icon name="menu-outline"></ion-icon>
-            <span>Menu</span>
+          <button class="header-bottom-actions-btn" aria-label="Search" >
+            <ion-icon name="log-out-outline"></ion-icon>
+            <span>Logout</span>
           </button>
 
         </div>
