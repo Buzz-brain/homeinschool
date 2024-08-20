@@ -128,19 +128,19 @@
                     
               <!-- Dropdown Menu -->
               <div class="relative mt-2 md:mt-0">
-                  <button class="flex items-center bg-gray-100 text-gray-700 rounded-full px-4 py-2 mx-2">
-                      <ion-icon name="options-outline" class="text-xl"></ion-icon>
-                      <span class="ml-2 hidden md:block">Filter</span>
-                      <ion-icon name="chevron-down-outline" class="ml-2 text-xl"></ion-icon>
-                  </button>
-                  <div class="absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg hidden group-hover:block">
-                      <ul class="text-gray-700 text-sm">
-                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Price Range</li>
-                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Bedrooms</li>
-                          <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Location</li>
-                      </ul>
-                  </div>
-              </div>
+                <button class="filter flex items-center bg-gray-100 text-gray-700 rounded-full px-4 py-2 mx-2">
+                    <ion-icon name="options-outline" class="text-xl"></ion-icon>
+                    <span class="ml-2 hidden md:block">Filter</span>
+                    <ion-icon name="chevron-down-outline" class="ml-2 text-xl"></ion-icon>
+                </button>
+                <div style="display: none;" class="options absolute top-full left-0 mt-2 w-48 bg-white rounded-lg shadow-lg">
+                    <ul class="text-gray-700 text-sm">
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Price Range</li>
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Bedrooms</li>
+                        <li class="px-4 py-2 hover:bg-gray-200 cursor-pointer">Location</li>
+                    </ul>
+                </div>
+            </div>
       
               <!-- Search Button -->
               <button class="bg-green-700 text-white flex items-center rounded-full px-2 py-2  mx-2 mt-2 md:px-5 md:mt-0">
