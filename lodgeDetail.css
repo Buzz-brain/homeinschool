@@ -10,7 +10,6 @@ body {
     background-color: #fff;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .property-image {
@@ -179,13 +178,15 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
+    margin-bottom: 50px;
 }
 
 .photo-item, .video-item {
-    width: 30%;
+    width: 100%;
     position: relative;
     overflow: hidden;
     border-radius: 10px;
+    margin-top: 30px;
 }
 
 .photo-item img, .video-item img {

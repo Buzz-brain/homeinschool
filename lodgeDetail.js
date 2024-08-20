@@ -12,11 +12,15 @@ aboutDetail.addEventListener("click", () => {
     overview.style.display = "block"
     buyersAgent.style.display = "block"
     overview.innerHTML = `<h3>Overview</h3>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry...</p>`;
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure esse dolorem error amet nostrum dolore quos debitis repellendus, aut recusandae consequatur. Nobis error ea a ullam optio modi, quod hic?
+              Sapiente, dolorum expedita non quis eveniet magni aspernatur reiciendis totam officiis, inventore alias dolor autem ipsum vero? At fuga fugit quis! Tempora maxime harum fugiat aperiam vel aut provident esse.
+              Eligendi aperiam et voluptas ut veritatis, ex omnis praesentium, iusto neque dolores nihil necessitatibus explicabo animi. Esse fugiat, accusantium corrupti veritatis eos est provident suscipit voluptatem reiciendis dolores ipsa ratione.
+            </p>`;
     buyersAgent.innerHTML = `<h3>Buyer's Agent</h3>
             <div class="agent-info">
-                <img src="assets/images/author.jpg" alt="Agent">
-                <span>Michael Angelo</span>
+                <img src="assets/images/agent.png" alt="Agent">
+                <span>Buzz brain</span>
             </div>`;
     detailsCtn.innerHTML = `
     <div class="property-stats">
@@ -52,22 +56,22 @@ gallery.addEventListener("click", () => {
     </div>
     <div class="photo-gallery">
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 1">
+            <img src="assets/images/herobanner.png" alt="Photo 1">
         </div>
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 2">
+            <img src="assets/images/herobanner2.png" alt="Photo 2">
         </div>
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 3">
+            <img src="assets/images/herobanner3.png" alt="Photo 3">
         </div>
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 4">
+            <img src="assets/images/herobanner4.png" alt="Photo 4">
         </div>
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 5">
+            <img src="assets/images/property-1.jpg" alt="Photo 5">
         </div>
         <div class="photo-item">
-            <img src="assets/images/hero-banner.png" alt="Photo 6">
+            <img src="assets/images/property-2.jpg" alt="Photo 6">
         </div>
     </div>
     
@@ -76,15 +80,15 @@ gallery.addEventListener("click", () => {
     </div>
     <div class="video-gallery">
         <div class="video-item">
-            <img src="assets/images/hero-banner.png" alt="Video 1">
+            <img src="assets/images/property-3.jpg" alt="Video 1">
             <ion-icon name="play-circle-outline"></ion-icon>
         </div>
         <div class="video-item">
-            <img src="assets/images/hero-banner.png" alt="Video 2">
+            <img src="assets/images/property-4.png" alt="Video 2">
             <ion-icon name="play-circle-outline"></ion-icon>
         </div>
         <div class="video-item">
-            <img src="assets/images/hero-banner.png" alt="Video 3">
+            <img src="assets/images/herobanner.png" alt="Video 3">
             <ion-icon name="play-circle-outline"></ion-icon>
         </div>
     </div>
